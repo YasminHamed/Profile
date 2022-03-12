@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+.home{
+    z-index: -2;
+    position: absolute;
+    top: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icons{
+    margin-left: 20%;
+    background-color: rgb(34 ,206, 217);
+    border-radius: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icons:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+    margin-top: 25px;
+    margin-left: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.Row{
+    display: flex;
+    flex-flow: row;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column{
+    display: flex;
+    flex-flow: column;
+}
+.name{
+    color: rgb(255, 0, 191);
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.yasmin{
+    font-weight: bold;
+    margin-bottom: -5px;
+    color: rgb(0, 8, 36);
+}
+.logos{
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+}
+.title{
+    font-family: "Times New Roman", Times, serif;
+    margin-top: -5%;
+    margin-left: 51%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    width: 700px;
+    text-align: center;
+}
+.MY{
+    margin-left: 125px;
+    color: rgb(79 135 255);
+}
+.myname{
+    color:  rgb(255, 0, 119);
+}
+.work{
+    position: absolute;
+    top: 160px;
+}
+.titlee{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.skills{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.list{
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imgg{
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    border: 2px solid black;
+}
+.contact{
+    position: absolute;
+    top: 20px;
+    left: 850px;
 }
